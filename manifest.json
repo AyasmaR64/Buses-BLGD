@@ -1,0 +1,87 @@
+{
+  "name": "Bus Services Balangoda",
+  "short_name": "Buses BLGD",
+  "description": "Offline Bus Schedule & Route Finder for Balangoda",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "dir": "ltr",
+  "lang": "en-US",
+  "prefer_related_applications": false,
+  "background_color": "#0f1724",
+  "theme_color": "#0f1724",
+  "categories": ["travel", "transportation", "navigation"],
+  "screenshots": [
+    {
+      "src": "./images/screenshot1.png",
+      "sizes": "640x400",
+      "type": "image/png",
+      "form_factor": "wide",
+      "purpose": "any"
+    },
+    {
+      "src": "./images/screenshot2.png",
+      "sizes": "640x400",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "purpose": "any"
+    }
+  ],
+  "icons": [
+    {
+      "src": "./images/icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./images/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./images/icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Find Bus",
+      "short_name": "Find",
+      "description": "Quickly find your bus",
+      "url": "./index.html?mode=find",
+      "icons": [
+        {
+          "src": "./images/icon.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "View Map",
+      "short_name": "Map",
+      "description": "View bus routes on map",
+      "url": "./index.html?mode=map",
+      "icons": [
+        {
+          "src": "./images/icon.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "share_target": {
+    "action": "./index.html",
+    "method": "POST",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
