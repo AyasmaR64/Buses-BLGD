@@ -3,7 +3,7 @@ const ASSETS = [
   "./",
   "./index.html",
   "./manifest.json",
-  "./images/icon.png",
+  "./images/bus.svg",
   "./images/screenshot1.png",
   "./images/screenshot2.png",
   "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
